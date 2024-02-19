@@ -70,11 +70,52 @@ using namespace std; // 네임스페이스란, 많은 라이브러리를 불러�
 /**
  * 출력
 */
-typedef long long ll;
-double a = 1.23456789;
+// typedef long long ll;
+// double a = 1.23456789;
+// int main() {
+//     cout << a << "\n";
+//     cout.precision(4);
+//     cout << a << "\n";
+//     return 0;
+// }
+
+/**
+ * 주소 출력
+*/
+
+// int i;
+
+// int main() {
+//     cout << &i << "\n";
+//     i = 10;
+//     cout << &i << "\n";
+//     return 0;
+// }
+
+/**
+ * 이터레이터
+*/
+vector<int> v;
+
 int main() {
-    cout << a << "\n";
-    cout.precision(4);
-    cout << a << "\n";
+    for(int i=1; i<=5; i++) v.push_back(i);
+    for(int i=0; i<5; i++) {
+        cout << i << "번째 요소 : " << *(v.begin() + i) << "\n";
+        cout << &*(v.begin() + i) << "\n";
+    }
+
+    for(auto it = v.begin(); it != v.end(); it++) {
+        cout << *it << "\n";
+    }
+
+    for(vector<int>::iterator it = v.begin(); it != v.end(); it++) {
+        cout << *it << " : " << "\n";
+    }
+
+    auto it = v.begin();
+    advance(it, 3);
+    cout << "\n";
+    cout << *it << "\n";
+
     return 0;
 }
