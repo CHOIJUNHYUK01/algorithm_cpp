@@ -95,27 +95,101 @@ using namespace std; // 네임스페이스란, 많은 라이브러리를 불러�
 /**
  * 이터레이터
 */
-vector<int> v;
+// vector<int> v;
+// 
+// int main() {
+//     for(int i=1; i<=5; i++) v.push_back(i);
+//     for(int i=0; i<5; i++) {
+//         cout << i << "번째 요소 : " << *(v.begin() + i) << "\n";
+//         cout << &*(v.begin() + i) << "\n";
+//     }
 
+//     for(auto it = v.begin(); it != v.end(); it++) {
+//         cout << *it << "\n";
+//     }
+
+//     for(vector<int>::iterator it = v.begin(); it != v.end(); it++) {
+//         cout << *it << " : " << "\n";
+//     }
+
+//     auto it = v.begin();
+//     advance(it, 3);
+//     cout << "\n";
+//     cout << *it << "\n";
+
+//     return 0;
+// }
+
+/**
+ * fill()
+*/
+// int a[10];
+// int b[10][10];
+// int main() {
+//     fill(&a[0], &a[10], 100);
+
+//     for(int i=0; i<10; i++) {
+//         cout << a[i] << "\n";
+//     }
+
+//     cout << "\n";
+
+//     fill(&b[0][0], &b[9][10], 2);
+//     for(int i=0; i<10; i++) {
+//         for(int j=0; j<10; j++) {
+//             cout << b[i][j] << " ";
+//         }
+//         cout << "\n";
+//     }
+
+//     return 0;
+// }
+
+/**
+ * 초기화 주의하기
+*/
+// int main() {
+//     int cnt = 0;
+//     int a[5] = {0, };
+//     while(++cnt != 10) {
+//         for(int i=0; i<5; i++) a[i] = i;
+//         a[5] = {0, };
+//         for(int i : a) cout << i << ' ';
+//         cnt++;
+//     }
+//     return 0;
+// }
+
+/**
+ * 커스텀 정렬함수
+*/
+// vector<pair<int, int>> v;
+
+// bool cmp(pair<int, int> a, pair<int, int> b) {
+//     return a.first < b.first;
+// }
+
+// int main() {
+//     for(int i=10; i>=1; i--) {
+//         v.push_back({i, 10-i});
+//     }
+//     sort(v.begin(), v.end(), cmp);
+//     for(auto it : v) cout << it.first << " : " << it.second << "\n";
+
+//     return 0;
+// }
+
+/**
+ * 최대 요소
+*/
 int main() {
-    for(int i=1; i<=5; i++) v.push_back(i);
-    for(int i=0; i<5; i++) {
-        cout << i << "번째 요소 : " << *(v.begin() + i) << "\n";
-        cout << &*(v.begin() + i) << "\n";
-    }
+    vector<int> v = {1,2,3,4,5,6,7,8,9};
 
-    for(auto it = v.begin(); it != v.end(); it++) {
-        cout << *it << "\n";
-    }
+    int a = *max_element(v.begin(), v.end());
+    auto b = max_element(v.begin(), v.end());
 
-    for(vector<int>::iterator it = v.begin(); it != v.end(); it++) {
-        cout << *it << " : " << "\n";
-    }
-
-    auto it = v.begin();
-    advance(it, 3);
-    cout << "\n";
-    cout << *it << "\n";
+    cout << a << "\n"; // 9
+    cout << (int)(b - v.begin()) << "\n"; // 8
 
     return 0;
 }
