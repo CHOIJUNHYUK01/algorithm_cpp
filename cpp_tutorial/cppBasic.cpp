@@ -182,14 +182,122 @@ using namespace std; // 네임스페이스란, 많은 라이브러리를 불러�
 /**
  * 최대 요소
 */
+// int main() {
+//     vector<int> v = {1,2,3,4,5,6,7,8,9};
+
+//     int a = *max_element(v.begin(), v.end());
+//     auto b = max_element(v.begin(), v.end());
+
+//     cout << a << "\n"; // 9
+//     cout << (int)(b - v.begin()) << "\n"; // 8
+
+//     return 0;
+// }
+
+/**
+ * for 루프
+*/
+// vector<int> v {1,2,3};
+// int main() {
+//     for(int a : v) cout << a << " ";
+//     cout << "\n";
+
+//     for(int i=0; i<v.size(); i++) cout << v[i] << ' ';
+//     cout << "\n";
+
+//     vector<pair<int, int>> v2 = {{1,2}, {3,4}};
+//     for(pair<int, int> a : v2) cout << a.first << " ";
+
+//     return 0;
+// }
+
+/**
+ * 2차원 배열
+*/
+// vector<vector<int>> v;
+// vector<vector<int>> v2(10, vector<int>(10, 0));
+// vector<int> v3[10];
+
+// int main() {
+//     for(int i = 0; i < 10; i++) {
+//         vector<int> temp;
+//         v.push_back(temp);
+//     }
+
+//     return 0;
+// }
+
+/**
+ * 연결리스트
+*/
+// list<int> a;
+
+// void print(list <int> a) {
+//     for(auto it : a) cout << it << " ";
+//     cout << "\n";
+// }
+
+// int main() {
+//     for(int i=1; i<=3; i++) a.push_back(i);
+//     for(int i=1; i<=3; i++) a.push_front(i);
+
+//     auto it = a.begin(); it++;
+//     a.insert(it, 1000);
+//     print(a);
+
+//     it = a.begin(); it++;
+//     a.erase(it);
+//     print(a);
+
+//     a.pop_front();
+//     a.pop_back();
+//     print(a);
+
+//     cout << a.front() << " : " << a.back() << "\n";
+//     a.clear();
+
+//     return 0;
+// }
+
+/**
+ * 맵 탐색
+*/
+map<string, int> mp;
+string a[] = {"페른", "제리에", "프리렌"};
 int main() {
-    vector<int> v = {1,2,3,4,5,6,7,8,9};
+    for(int i=0; i<3; i++) {
+        mp.insert({a[i], i+1});
+        mp[a[i]] = i + 1;
+    }
+    // mp에 해당 키가 없다면 0으로 초기화됨 (Int 라면)
+    // 만약 mp에 해당키가 없는지 확인하고 싶고, 초기값이 0이 되면 안된다 하는 상황이라면
+    // find를 써야 한다.
 
-    int a = *max_element(v.begin(), v.end());
-    auto b = max_element(v.begin(), v.end());
+    cout << mp["friren"] << "\n"; // 0
 
-    cout << a << "\n"; // 9
-    cout << (int)(b - v.begin()) << "\n"; // 8
+    mp["friren"] = 4;
+    cout << mp.size() << "\n"; // 4
+    mp.erase("friren");
+
+    auto it = mp.find("friren");
+    if(it == mp.end()) {
+        cout << "없는 마법사임" << "\n";
+    }
+    mp["friren"] = 100;
+
+    it = mp.find("friren");
+    if(it != mp.end()) {
+        cout << (*it).first << " : " << (*it).second << "\n";
+    }
+
+    for(auto it : mp) {
+        cout << (it).first << " : " << (it).second << "\n";
+    }
+    for(auto it = mp.begin(); it != mp.end(); it++) {
+        cout << (*it).first << " : " << (*it).second << "\n";
+    }
+
+    mp.clear();
 
     return 0;
 }
