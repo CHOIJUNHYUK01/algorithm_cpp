@@ -262,42 +262,112 @@ using namespace std; // 네임스페이스란, 많은 라이브러리를 불러�
 /**
  * 맵 탐색
 */
-map<string, int> mp;
-string a[] = {"페른", "제리에", "프리렌"};
+// map<string, int> mp;
+// string a[] = {"페른", "제리에", "프리렌"};
+// int main() {
+//     for(int i=0; i<3; i++) {
+//         mp.insert({a[i], i+1});
+//         mp[a[i]] = i + 1;
+//     }
+//     // mp에 해당 키가 없다면 0으로 초기화됨 (Int 라면)
+//     // 만약 mp에 해당키가 없는지 확인하고 싶고, 초기값이 0이 되면 안된다 하는 상황이라면
+//     // find를 써야 한다.
+
+//     cout << mp["friren"] << "\n"; // 0
+
+//     mp["friren"] = 4;
+//     cout << mp.size() << "\n"; // 4
+//     mp.erase("friren");
+
+//     auto it = mp.find("friren");
+//     if(it == mp.end()) {
+//         cout << "없는 마법사임" << "\n";
+//     }
+//     mp["friren"] = 100;
+
+//     it = mp.find("friren");
+//     if(it != mp.end()) {
+//         cout << (*it).first << " : " << (*it).second << "\n";
+//     }
+
+//     for(auto it : mp) {
+//         cout << (it).first << " : " << (it).second << "\n";
+//     }
+//     for(auto it = mp.begin(); it != mp.end(); it++) {
+//         cout << (*it).first << " : " << (*it).second << "\n";
+//     }
+
+//     mp.clear();
+
+//     return 0;
+// }
+
+/**
+ * Struct
+*/
+// struct Point{
+//     int y, x;
+// };
+
+// bool cmp(const Point & a, const Point & b) {
+//     return a.x > b.x;
+// }
+
+// vector<Point> v;
+// int main() {
+//     for(int i=10; i>=1; i--) {
+//         v.push_back({i, 10 - i});
+//     }
+
+//     sort(v.begin(), v.end(), cmp);
+
+//     for(auto it : v) cout << it.y << " : " << it.x << "\n";
+
+//     return 0;
+// }
+
+/**
+ * 우선순위 큐
+*/
+// priority_queue<int, vector<int>, greater<int> > pq; // 오름차순
+// priority_queue<int> pq2; //내림차순
+// priority_queue<int, vector<int>, less<int> > pq3; // 내림차순
+
+// int main() {
+//     for(int i=5; i>=1; i--) {
+//         pq.push(i); pq2.push(i); pq3.push(i);
+//     }
+
+//     while(pq.size()) {
+//         cout << pq.top() << " : "<< pq2.top() << " : " << pq3.top() << "\n";
+//         pq.pop(); pq2.pop(); pq3.pop();
+//     }
+
+//     return 0;
+// }
+
+struct Point {
+    int y, x;
+
+    Point(int y, int x) : y(y), x(x) {}
+    Point() { y = -1; x = -1; }
+
+    bool operator < (const Point & a) const{
+        return x < a.x;
+    }
+};
+
+priority_queue<Point> pq;
+
 int main() {
-    for(int i=0; i<3; i++) {
-        mp.insert({a[i], i+1});
-        mp[a[i]] = i + 1;
-    }
-    // mp에 해당 키가 없다면 0으로 초기화됨 (Int 라면)
-    // 만약 mp에 해당키가 없는지 확인하고 싶고, 초기값이 0이 되면 안된다 하는 상황이라면
-    // find를 써야 한다.
+    pq.push({1,1});
+    pq.push({2,2});
+    pq.push({3,3});
+    pq.push({4,4});
+    pq.push({5,5});
+    pq.push({6,6});
 
-    cout << mp["friren"] << "\n"; // 0
-
-    mp["friren"] = 4;
-    cout << mp.size() << "\n"; // 4
-    mp.erase("friren");
-
-    auto it = mp.find("friren");
-    if(it == mp.end()) {
-        cout << "없는 마법사임" << "\n";
-    }
-    mp["friren"] = 100;
-
-    it = mp.find("friren");
-    if(it != mp.end()) {
-        cout << (*it).first << " : " << (*it).second << "\n";
-    }
-
-    for(auto it : mp) {
-        cout << (it).first << " : " << (it).second << "\n";
-    }
-    for(auto it = mp.begin(); it != mp.end(); it++) {
-        cout << (*it).first << " : " << (*it).second << "\n";
-    }
-
-    mp.clear();
+    cout << pq.top().x << "\n";
 
     return 0;
 }
