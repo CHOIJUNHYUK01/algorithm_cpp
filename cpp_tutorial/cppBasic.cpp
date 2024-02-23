@@ -346,28 +346,168 @@ using namespace std; // 네임스페이스란, 많은 라이브러리를 불러�
 //     return 0;
 // }
 
-struct Point {
-    int y, x;
+// struct Point {
+//     int y, x;
 
-    Point(int y, int x) : y(y), x(x) {}
-    Point() { y = -1; x = -1; }
+//     Point(int y, int x) : y(y), x(x) {}
+//     Point() { y = -1; x = -1; }
 
-    bool operator < (const Point & a) const{
-        return x < a.x;
-    }
-};
+//     bool operator < (const Point & a) const{
+//         return x < a.x;
+//     }
+// };
 
-priority_queue<Point> pq;
+// priority_queue<Point> pq;
+
+// int main() {
+//     pq.push({1,1});
+//     pq.push({2,2});
+//     pq.push({3,3});
+//     pq.push({4,4});
+//     pq.push({5,5});
+//     pq.push({6,6});
+
+//     cout << pq.top().x << "\n";
+
+//     return 0;
+// }
+
+/**
+ * 2차원 배열 수정하기
+*/
+// vector<vector<int>> v;
+// vector<vector<int>> v2(10, vector<int>(10, 0));
+// vector<int> v3[10];
+
+// void go(vector<vector<int>> &v) {
+//     v[0][0] = 100;
+// }
+// void go2(vector<vector<int>> &v) {
+//     v[0][0] = 100;
+// }
+// void go3(vector<int> v[10]) {
+//     v[0][0] = 100;
+// }
+
+// int main() {
+//     vector<int> temp;
+//     temp.push_back(0);
+//     v.push_back(temp);
+
+//     v3[0].push_back(0);
+
+//     go(v); go2(v2); go3(v3);
+//     cout << v[0][0] << " : " << v2[0][0] << " : " << v3[0][0] << "\n";
+
+//     return 0;
+// }
+
+/**
+ * 순열
+*/
+// void printV(vector<int> &v) {
+//     for(int i=0; i<v.size(); i++) {
+//         cout << v[i] << " ";
+//     }
+//     cout << "\n";
+// }
+
+// int main() {
+//     int a[3] = {1,2,3};
+//     vector<int> v;
+
+//     for(int i=0; i<3; i++) v.push_back(a[i]);
+
+//     do {
+//         printV(v);
+//     } while(next_permutation(v.begin(), v.end()));
+
+//     cout << "----------" << "\n";
+//     v.clear();
+
+//     for(int i=3; i>=1; i--) v.push_back(i);
+
+//     do {
+//         printV(v);
+//     } while(prev_permutation(v.begin(), v.end()));
+
+//     return 0;
+// }
+
+// int a[3] = {1,2,3};
+// int n = 3, r = 3;
+
+// void print() {
+//     for(int i=0; i<r; i++) {
+//         cout << a[i] << " ";
+//     }
+//     cout << "\n";
+// }
+
+// void makePermutation(int n, int r, int depth) {
+//     if(r == depth) {
+//         print();
+//         return;
+//     }
+
+//     for(int i=depth; i<n; i++) {
+//         swap(a[i], a[depth]);
+//         makePermutation(n, r, depth + 1);
+//         swap(a[i], a[depth]);
+//     }
+//     return;
+// }
+
+// int main() {
+//     makePermutation(n, r, 0);
+//     return 0;
+// }
+
+/**
+ * 최대공약수
+*/
+// int gcd(int a, int b) {
+//     if(a == 0) return b;
+//     return gcd(b % a, a);
+// }
+// // int main() {
+// //     cout << gcd(5, 10) << "\n";
+// //     return 0;
+// // }
+
+// /**
+//  * 최소공배수
+// */
+
+// int lcm(int a, int b) {
+//     return (a * b) / gcd(a,b);
+// }
+// int main() {
+//     int a = 10, b = 12;
+//     cout << lcm(a,b) << "\n";
+//     return 0;
+// }
+
+/**
+ * n진법 변경
+*/
+vector<int> v;
 
 int main() {
-    pq.push({1,1});
-    pq.push({2,2});
-    pq.push({3,3});
-    pq.push({4,4});
-    pq.push({5,5});
-    pq.push({6,6});
+    int n = 100;
+    int b = 2;
 
-    cout << pq.top().x << "\n";
+    while(n > 1) {
+        v.push_back(n % b);
+        n /= b;
+    }
 
+    if(n == 1) v.push_back(1);
+    reverse(v.begin(), v.end());
+
+    for(int a : v) {
+        if(a >= 10) cout << char(a + 55); // 이건 16진법을 위한 것임
+        else cout << a;
+    }
     return 0;
 }
