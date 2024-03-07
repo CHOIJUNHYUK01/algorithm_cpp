@@ -17,3 +17,9 @@
 [2559 수열](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/2559.md)
 
 [1620 나는야 포켓몬 마스터 이다솜](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/1620.md)
+
+[9375 패션왕 신해빈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/9375.md)
+
+[1213 팰린드롬 만들기](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/1213.md)
+
+[1940 주몽](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/1940.md)
