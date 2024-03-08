@@ -23,3 +23,13 @@
 [1213 팰린드롬 만들기](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/1213.md)
 
 [1940 주몽](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/1940.md)
+
+[3986 좋은 단어](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/3986.md)
+
+---
+
+### 오답
+
+[1629 곱셈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/1629.md)
+
+[4375 곱셈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/4375.md)
