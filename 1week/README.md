@@ -32,4 +32,4 @@
 
 [1629 곱셈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/1629.md)
 
-[4375 곱셈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/4375.md)
+[4375 1](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/1week/4375.md)
