@@ -4,6 +4,10 @@
 
 [2828 사과 담기 게임](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2828.md)
 
+[4659 비밀번호 발음하기](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/4659.md)
+
+[10709 기상캐스터](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/10709.md)
+
 ---
 
 ### 오답
@@ -17,3 +21,5 @@
 [1992 쿼드트리](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1992.md)
 
 [2910 빈도 정렬](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2910.md)
+
+[2870 수학숙제](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2870.md)
