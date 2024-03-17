@@ -23,3 +23,7 @@
 [2910 빈도 정렬](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2910.md)
 
 [2870 수학숙제](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2870.md)
+
+[3474 교수가 된 현우](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/3474.md)
+
+[2852 NBA농구](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2852.md)
