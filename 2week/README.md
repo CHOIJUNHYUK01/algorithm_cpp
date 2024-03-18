@@ -8,6 +8,10 @@
 
 [10709 기상캐스터](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/10709.md)
 
+[9012 괄호](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/9012.md)
+
+[4949 균형잡힌 세상](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/4949.md)
+
 ---
 
 ### 오답
@@ -27,3 +31,7 @@
 [3474 교수가 된 현우](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/3474.md)
 
 [2852 NBA농구](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2852.md)
+
+[1436 영화감독 숌](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1436.md)
+
+[14502 연구소](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/14502.md)
