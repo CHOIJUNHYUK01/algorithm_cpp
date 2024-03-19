@@ -41,3 +41,5 @@
 [1068 트리](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1068.md)
 
 [1325 효율적인 해킹](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1325.md)
+
+[17298 오큰수](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/17298.md)
