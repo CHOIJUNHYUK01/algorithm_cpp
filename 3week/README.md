@@ -11,3 +11,5 @@
 [16234 인구 이동](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/16234.md)
 
 [4179 불](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/4179.md)
+
+[12869 뮤탈리스크](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/12869.md)
