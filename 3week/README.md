@@ -13,3 +13,9 @@
 [4179 불](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/4179.md)
 
 [12869 뮤탈리스크](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/12869.md)
+
+[16637 괄호 추가하기](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/16637.md)
+
+[12851 숨바꼭질2](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/12851.md)
+
+[13913 숨바꼭질4](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/13913.md)
