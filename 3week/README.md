@@ -19,3 +19,9 @@
 [12851 숨바꼭질2](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/12851.md)
 
 [13913 숨바꼭질4](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/13913.md)
+
+[17071 숨바꼭질5](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/17071.md)
+
+[14497 주난의 난](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/14497.md)
+
+[3197 백조의 호수](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/3197.md)
