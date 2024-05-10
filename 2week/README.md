@@ -16,19 +16,25 @@
 
 [10709 기상캐스터](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/10709.md)
 
+[3474 교수가 된 현우](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/3474.md)
+
+[2852 NBA농구](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2852.md)
+
+[1436 영화감독 숌](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1436.md)
+
+[9012 괄호](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/9012.md)
+
+[4949 균형잡힌 세상](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/4949.md)
+
 ---
 
 ### 오답
 
 [1992 쿼드트리](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1992.md)
 
-## [2870 수학숙제](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2870.md)
+[2870 수학숙제](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2870.md)
 
-[3474 교수가 된 현우](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/3474.md)
-
-[2852 NBA농구](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2852.md)
-
-[1436 영화감독 숌](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1436.md)
+---
 
 [14502 연구소](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/14502.md)
 
@@ -39,7 +45,3 @@
 [1325 효율적인 해킹](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1325.md)
 
 [17298 오큰수](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/17298.md)
-
-[9012 괄호](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/9012.md)
-
-[4949 균형잡힌 세상](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/4949.md)
