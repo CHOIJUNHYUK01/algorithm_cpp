@@ -26,6 +26,10 @@
 
 [4949 균형잡힌 세상](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/4949.md)
 
+[14502 연구소](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/14502.md)
+
+[2636 치즈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2636.md)
+
 ---
 
 ### 오답
@@ -34,13 +38,9 @@
 
 [2870 수학숙제](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2870.md)
 
----
-
-[14502 연구소](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/14502.md)
-
-[2636 치즈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/2636.md)
-
 [1068 트리](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1068.md)
+
+---
 
 [1325 효율적인 해킹](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/2week/1325.md)
 
