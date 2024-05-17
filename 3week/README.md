@@ -2,13 +2,13 @@
 
 [15686 치킨 배달](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/15686.md)
 
-[9934 완전이진트리](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/9934.md)
-
 ---
 
 ### 오답
 
 [2589 보물섬](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/2589.md)
+
+---
 
 [16234 인구 이동](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/16234.md)
 
@@ -31,3 +31,5 @@
 [1987 알파벳](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/1987.md)
 
 [2529 부등호](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/2529.md)
+
+[9934 완전이진트리](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/9934.md)
