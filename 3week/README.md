@@ -4,6 +4,8 @@
 
 [16234 인구 이동](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/16234.md)
 
+[14497 주난의 난](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/14497.md)
+
 ---
 
 ### 오답
@@ -22,11 +24,9 @@
 
 [17071 숨바꼭질5](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/17071.md)
 
----
-
-[14497 주난의 난](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/14497.md)
-
 [3197 백조의 호수](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/3197.md)
+
+---
 
 [1987 알파벳](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/1987.md)
 
