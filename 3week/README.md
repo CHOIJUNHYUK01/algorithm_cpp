@@ -26,8 +26,6 @@
 
 [3197 백조의 호수](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/3197.md)
 
----
-
 [1987 알파벳](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/1987.md)
 
 [2529 부등호](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/2529.md)
