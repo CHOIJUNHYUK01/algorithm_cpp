@@ -31,3 +31,7 @@
 [2529 부등호](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/2529.md)
 
 [9934 완전이진트리](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/9934.md)
+
+[15684 사다리조작](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/15684.md)
+
+[14620 꽃길](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/14620.md)
