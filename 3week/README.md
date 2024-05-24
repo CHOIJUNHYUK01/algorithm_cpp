@@ -35,3 +35,5 @@
 [15684 사다리조작](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/15684.md)
 
 [14620 꽃길](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/14620.md)
+
+[1189 컴백홈](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/3week/1189.md)
