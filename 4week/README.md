@@ -2,6 +2,10 @@
 
 [19942번 다이어트](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/19942.md)
 
+[1094 막대기](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/1094.md)
+
+[11723 집합](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/11723.md)
+
 ---
 
 ### 오답
@@ -15,3 +19,5 @@
 [14890 경사로](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/14890.md)
 
 [1062 가르침](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/1062.md)
+
+[2234 성곽](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/2234.md)
