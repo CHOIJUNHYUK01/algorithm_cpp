@@ -21,3 +21,9 @@
 [1062 가르침](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/1062.md)
 
 [2234 성곽](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/2234.md)
+
+[14391 종이 조각](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/14391.md)
+
+[13244 Tree](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/13244.md)
+
+[5430 AC](https://github.com/CHOIJUNHYUK01/algorithm_cpp/blob/main/4week/5430.md)
