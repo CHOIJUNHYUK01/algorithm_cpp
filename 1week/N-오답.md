@@ -4,22 +4,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-
 int a, b, c;
 
-int go(int b)
+int go(int n)
 {
-    if (b == 1)
+    if (n == 1)
         return a % c;
 
-    ll ret = go(b / 2);
+    long long ret = go(n / 2);
     ret = (ret * ret) % c;
 
-    if (b % 2)
-    {
+    if (n % 2)
         ret = (ret * a) % c;
-    }
 
     return ret;
 }
@@ -28,7 +24,7 @@ int main()
 {
     cin >> a >> b >> c;
 
-    cout << go(b);
+    cout << go(b) << "\n";
 
     return 0;
 }
