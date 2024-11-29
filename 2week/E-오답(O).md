@@ -8,25 +8,24 @@ int n;
 string s;
 char a[68][68];
 
-string quard(int y, int x, int size)
+string go(int y, int x, int size)
 {
     if (size == 1)
         return string(1, a[y][x]);
 
     char std = a[y][x];
     string ret = "";
-
     for (int i = y; i < y + size; i++)
     {
         for (int j = x; j < x + size; j++)
         {
-            if (std != a[i][j])
+            if (a[i][j] != std)
             {
                 ret += '(';
-                ret += quard(y, x, size / 2);
-                ret += quard(y, x + size / 2, size / 2);
-                ret += quard(y + size / 2, x, size / 2);
-                ret += quard(y + size / 2, x + size / 2, size / 2);
+                ret += go(y, x, size / 2);
+                ret += go(y, x + size / 2, size / 2);
+                ret += go(y + size / 2, x, size / 2);
+                ret += go(y + size / 2, x + size / 2, size / 2);
                 ret += ')';
 
                 return ret;
@@ -53,7 +52,7 @@ int main()
         }
     }
 
-    cout << quard(0, 0, n) << "\n";
+    cout << go(0, 0, n) << "\n";
 
     return 0;
 }
